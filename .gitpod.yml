@@ -1,0 +1,24 @@
+image: "ghcr.io/fhenixprotocol/fhenix-gitpod:0.1.5"
+
+tasks:
+  - command: |
+      node /home/gitpod/faucet.js
+  - command: |
+      cd /home/gitpod/ /home/gitpod/run_standalone.sh
+  - command: |
+      echo "Hello and welcome to Fhenix Dev Environment"
+  - init: "pnpm install"
+
+ports:
+  - port: 8545
+    onOpen: ignore
+    visibility: public
+  - port: 6000
+    onOpen: ignore
+    visibility: public
+
+vscode:
+  extensions:
+    - "esbenp.prettier-vscode"
+    - "NomicFoundation.hardhat-solidity"
+    - "ritwickdey.LiveServer"
