@@ -1,0 +1,15 @@
+fhenixfrontier:
+  name: fhenixfrontier
+  chainId: 412346
+  domainId: 412346
+  protocol: ethereum
+  rpcUrls:
+    - http: https://test01.fhenix.zone/evm
+fhenixdevnet:
+  name: fhenixdevnet
+  chainId: 5432
+  domainId: 5432
+  protocol: ethereum
+  rpcUrls:
+    - http: https://fhenode.fhenix.io/new/evm
+

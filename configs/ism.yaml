@@ -1,0 +1,9 @@
+fhenixfrontier:
+  threshold: 1
+  validators:
+    - "0x55Ae5e87C8be13EcA8db6dcD54EbCCd491A857F8"
+fhenixdevnet:
+  threshold: 1
+  validators:
+    - "0x55Ae5e87C8be13EcA8db6dcD54EbCCd491A857F8"
+
