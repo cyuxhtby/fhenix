@@ -4,7 +4,7 @@ fhenixfrontier:
   domainId: 412346
   protocol: ethereum
   rpcUrls:
-    - http: https://test01.fhenix.zone/evm
+    - http: https://test01.fhenix.zone/evmq
 fhenixdevnet:
   name: fhenixdevnet
   chainId: 5432
