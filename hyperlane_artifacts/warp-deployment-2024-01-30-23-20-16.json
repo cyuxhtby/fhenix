@@ -1,0 +1,10 @@
+{
+  "sepolia": {
+    "router": "0x8415013Aa7460A0a7fd7865b29346772924d6833",
+    "tokenType": "collateral"
+  },
+  "fhenixdevnet": {
+    "router": "0x32E1e64aFF508FD3Cca45b072F3c54e20182Bd4c",
+    "tokenType": "synthetic"
+  }
+}
