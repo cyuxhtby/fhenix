@@ -86,7 +86,7 @@
     "faucet": "node getFromFaucet.js"
   },
   "dependencies": {
-    "@fhenixprotocol/contracts": "^0.0.2",
+    "@fhenixprotocol/contracts": "0.1.0-beta.3",
     "fhenixjs": "^0.0.3",
     "ganache-cli": "^6.12.2"
   }

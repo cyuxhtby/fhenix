@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@fhenixprotocol/contracts':
-    specifier: ^0.0.2
-    version: 0.0.2
+    specifier: 0.1.0-beta.3
+    version: 0.1.0-beta.3
   fhenixjs:
     specifier: ^0.0.3
     version: 0.0.3
@@ -722,8 +722,10 @@ packages:
       '@ethersproject/strings': 5.7.0
     dev: true
 
-  /@fhenixprotocol/contracts@0.0.2:
-    resolution: {integrity: sha512-00DaLdXQJcjyFY2M7uxz7POpXXT4d8GMHKvKy9HUiip/ykip9eTM2JWpHvs00n6mmAZmfPlXAPEWiT02dsReIQ==}
+  /@fhenixprotocol/contracts@0.1.0-beta.3:
+    resolution: {integrity: sha512-d7gFgTPX++VfMs450CM1gR0tCRhs7FyWU1tgf3i+wJWwLmtjMM+6pKM67+xHoRbMq7TuGRzAEZEurk3rpIfkJg==}
+    dependencies:
+      '@openzeppelin/contracts': 5.0.1
     dev: false
 
   /@humanwhocodes/config-array@0.11.8:
@@ -1209,6 +1211,10 @@ packages:
   /@openzeppelin/contracts@4.9.2:
     resolution: {integrity: sha512-mO+y6JaqXjWeMh9glYVzVu8HYPGknAAnWyxTRhGeckOruyXQMNnlcW6w/Dx9ftLeIQk6N+ZJFuVmTwF7lEIFrg==}
     dev: true
+
+  /@openzeppelin/contracts@5.0.1:
+    resolution: {integrity: sha512-yQJaT5HDp9hYOOp4jTYxMsR02gdFZFXhewX5HW9Jo4fsqSVqqyIO/xTHdWDaKX5a3pv1txmf076Lziz+sO7L1w==}
+    dev: false
 
   /@scure/base@1.1.1:
     resolution: {integrity: sha512-ZxOhsSyxYwLJj3pLZCefNitxsj093tb2vq90mp2txoYeBqbcjDjqFhyM8eUjq/uFm6zJ+mUuqxlS2FkuSY1MTA==}
