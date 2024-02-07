@@ -1,0 +1,10 @@
+{
+  "chainId": 11155111,
+  "name": "USDT",
+  "symbol": "USDT",
+  "decimals": 6,
+  "type": "collateral",
+  "address": "0xaA8E23Fb1079EA71e0a56F48a2aA51851D8433D0",
+  "hypCollateralAddress": "0xD0140EF95489a86dCda1159Eec90882a21e1b47e",
+  "isNft": false
+}
